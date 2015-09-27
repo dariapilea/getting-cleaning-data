@@ -22,3 +22,13 @@ The repositoty includes the following files:<br>
 3. <code>CodeBook.md</code> - description of the project, data and what was done during analysis<br> 
 4. <code>tidydata.txt</code> - final dataset
 
+##Description of the script <code>run_analysis.R</code> <br>
+Modifications needed: On step 0 zip file is downloaded. You need to check your working directory and 
+change filepath in the script if needed.
+Step 0: Download and unzip file with data, load data from txt files into variables
+Step 1: Create one data set by merging test and train data for subject, activity, features
+Step 2: From data set created on step 1 subset only values containing measurement of mean and standard deviation 
+Step 3: Rename activity (add names from activity_labels.txt instead of numbers in the data set)
+Step 4: Use full names for columns (replace short unclear names)
+Step 5: Calculate the average of variables and save result into the file
+
