@@ -15,11 +15,13 @@ subjtrain - table contents of <code>subject_train.txt</code><br>
 acttrain - table contents of  <code>y_train.txt</code><br>
 acttest - table contents of <code>y_test.txt</code><br>
 actlabels - table contents of <code>activity_labels.txt</code><br>
-subject - data set created by binding train and test data for subject
-activity - data set created by binding train and test data for activity
-features - data set created by binding train and test data for features
-data - data set created by merging the training and the test sets for subject,activity,features (result of step 1)
-
+subject - data set created by binding train and test data for subject<br>
+activity - data set created by binding train and test data for activity<br>
+features - data set created by binding train and test data for features<br>
+data - data set created by merging the training and the test sets for subject,activity,features (result of step 1)<br>
+name - list of column names for data set<br>
+mdata - subset of data containing only values of measurement of mean and std deviation<br>
+tidydata - final data set<br>
 
 ## Functions 
 Downloading and unzipping appropriate files was performed by using functions <code>download.file, unz</code><br>
