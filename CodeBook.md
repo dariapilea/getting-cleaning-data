@@ -15,9 +15,17 @@ subjtrain - table contents of <code>subject_train.txt</code><br>
 acttrain - table contents of  <code>y_train.txt</code><br>
 acttest - table contents of <code>y_test.txt</code><br>
 actlabels - table contents of <code>activity_labels.txt</code><br>
+subject - data set created by binding train and test data for subject
+activity - data set created by binding train and test data for activity
+features - data set created by binding train and test data for features
+data - data set created by merging the training and the test sets for subject,activity,features (result of step 1)
+
+
 ## Functions 
 Downloading and unzipping appropriate files was performed by using functions <code>download.file, unz</code><br>
 Read data <code>read.table</code><br>
+Rename columns <code>names</code><br>
+Produced one data set <code>cbind, rbind</code><br>
 
 ## Output
 Check <code>tidydata.txt</code><br>
