@@ -18,7 +18,7 @@ actlabels - table contents of <code>activity_labels.txt</code><br>
 subject - data set created by binding train and test data for subject<br>
 activity - data set created by binding train and test data for activity<br>
 features - data set created by binding train and test data for features<br>
-data - data set created by merging the training and the test sets for subject,activity,features (result of step 1)<br>
+data - data set created by merging the training and the test sets for subject,activity,features<br>
 name - list of column names for data set<br>
 mdata - subset of data containing only values of measurement of mean and std deviation<br>
 tidydata - final data set<br>
@@ -28,6 +28,12 @@ Downloading and unzipping appropriate files was performed by using functions <co
 Read data <code>read.table</code><br>
 Rename columns <code>names</code><br>
 Produced one data set <code>cbind, rbind</code><br>
+Searching pattern of characters <code>grepl</code><br>
+Subsetting data set <code>subset</code><br>
+Convert variable to the factor <code>factor</code><br>
+Replace all occurrences of the pattern <code>gsub</code><br>
+Aggregating data <code>aggregate</code><br>
+Write to a .txt file <code>write.table</code><br>
 
 ## Output
 Check <code>tidydata.txt</code><br>
